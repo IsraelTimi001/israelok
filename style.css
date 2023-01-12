@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+  background-image: url(girlg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.icon{
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.icon h2{
+  font-size: 35px;
+  color: orangered;
+}
+.navbar{
+  display: flex;
+}
+.menu{
+margin-top: 35px;
+margin-left: 150px;
+}
+.menu ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 62px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  
+}
+.menu ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: 0.15s ease-in-out;
+}
+.menu ul li a:hover{
+color: orangered
+}
+.search{
+  margin-top: 27px;
+  margin-left: 65px;
+}
+.srch{
+  height: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  background: transparent;
+  width: 200px;
+  height: 40px;
+  border: 1px solid orangered;
+ color: white;
+ font-size: 16px;
+ padding: 10px;
+margin-bottom: 12px;
+
+}
+.btn{
+  width: 150px;
+  height: 40px;
+  margin-right: 20px;
+  background: orangered;
+  border: solid orangered;
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  transition: 0.2s ;
+
+}
+.btn:hover{
+  background: transparent;
+  color: #fff;
+  transition: 0.4s ease-in-out
+}
+.container{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+margin-top: 130px;
+
+  position: relative;
+}
+span{
+  color: orangered;
+}
+.par{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.hit h1{
+  font-family:  Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  font-size: 40px;
+ 
+}
+.cn{
+  width: 160px;
+  height: 40px;
+  background: orangered;
+  border: solid orangered;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 18px;
+  border-radius: 10px;
+  
+}
+.cn:hover{
+  background: transparent;
+  color: white;
+}
+.form{
+  width: 250px;
+  height: 380px;
+  background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+  position: absolute;
+  top: -20px;
+  left: 870px;
+  border-radius: 10px;
+  padding: 25px;
+}
+.form h2{
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  color: orangered;
+  font-size: 22px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 2%;
+  padding: 8px;
+}
+.form h2:hover{
+background-color: orangered;
+color: #fff;
+}
+.form input{
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid orangered;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+.btn2{
+  width: 150px;
+  height: 40px;
+  background: orangered;
+  border: solid orangered;
+  color: white;
+  font-size: 15px;
+  transition: 0.2s ;
+  cursor: pointer;
+  margin-top: 20px;
+
+}
+.btn2:hover{
+  background: transparent;
+  color: #fff;
+  transition: 0.4s ease-in-out
+}
+.linka{
+text-decoration: none;
+color: blue;
+}
